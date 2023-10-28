@@ -10,11 +10,11 @@ app = Flask(__name__)
 SECRET_KEY = "1234567890"
 
 connection_string = (
-        'Driver={ODBC Driver 17 for SQL Server};'
-        'Server=tcp:balsynwsdev.sql.azuresynapse.net,1433;'
-        'Database=Balsynwsdev;'
-        'Uid=misdeteam25;'
-        'Pwd=J!$@&5&F#*E;'
+        'Driver=" ";'
+        'Server=tcp:"";'
+        'Database="";'
+        'Uid="";'
+        'Pwd="";'
         'Encrypt=yes;'
         'TrustServerCertificate=no;'
         'Connection Timeout=30;'
